@@ -27,7 +27,7 @@ const galleryImages = [
     },
     {
         src: 'img7.jpg',
-        caption: 'Early American Islamic manuscript'
+        caption: 'Omar ibn Said 1770-1863 Historical Marker'
     }
 ];
 
