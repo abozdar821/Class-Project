@@ -2,11 +2,14 @@
 const galleryImages = [
     {
         src: 'img1.jpg',
-        caption: 'Omar ibn Said\'s autobiography manuscript in Arabic'
+        caption: 'Job Ben Solomon (Ayyub ibn Sulaiman Diallo)' 'Omar ibn Said\'s autobiography manuscript in Arabic'
     },
     {
         src: 'img2.jpg',
-        caption: 'Portrait of Omar ibn Said'
+        caption: 'Ibrahima abd al Rahman, The Colonizationist and Journal of Freedom (1834).
+(Courtesy of The New York Public Library, Schomburg Center for Research in
+Black Culture, Manuscripts, Archives and Rare Books Division)'
+
     },
     {
         src: 'img3.jpg',
@@ -14,19 +17,19 @@ const galleryImages = [
     },
     {
         src: 'img4.jpg',
-        caption: 'Portrait of Yarrow Mamout by Charles Willson Peale'
+        caption: 'Omar ibn Said' 
     },
     {
         src: 'img5.jpg',
-        caption: 'Job Ben Solomon (Ayyub ibn Sulaiman)'
+        caption: 
     },
     {
         src: 'img6.jpg',
-        caption: 'Historical document from African Muslim archives'
+        caption: 'Portrait of Yarrow Mamout by Charles Willson Peale'
     },
     {
         src: 'img7.jpg',
-        caption: 'Early American Islamic manuscript'
+        caption: 'Omar ibn Said 1770-1863 Historical Marker'
     }
 ];
 
