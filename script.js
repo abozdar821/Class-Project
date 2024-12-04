@@ -1,4 +1,3 @@
-
 // Gallery images data
 const galleryImages = [
     {
@@ -31,35 +30,35 @@ const galleryImages = [
     },
     {
         src: 'img8.jpg',
-        caption: 
+        caption: 'Unknown Portrait 1'
     },
-     {
+    {
         src: 'img9.jpg',
-        caption: 
+        caption: 'Unknown Portrait 2'
     },
-     {
+    {
         src: 'img10.jpg',
-        caption: 
+        caption: 'Unknown Portrait 3'
     },
-     {
+    {
         src: 'img11.jpg',
-        caption: 
+        caption: 'Unknown Portrait 4'
     },
-     {
+    {
         src: 'img12.jpg',
-        caption: 
+        caption: 'Unknown Portrait 5'
     },
-     {
+    {
         src: 'img13.jpg',
-        caption: 
+        caption: 'Unknown Portrait 6'
     },
-     {
+    {
         src: 'img14.jpg',
-        caption: 
+        caption: 'Unknown Portrait 7'
     },
-     {
+    {
         src: 'img15.jpg',
-        caption: 
+        caption: 'Unknown Portrait 8'
     }
 ];
 
@@ -93,7 +92,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Slideshow functionality
 function createSlideshow() {
     const slideshowContainer = document.querySelector('.slideshow-container');
-    const images = ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg', 'img6.jpg', 'img7.jpg','img8.jpg'];
+    const images = ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg', 'img6.jpg', 'img7.jpg', 'img8.jpg'];
     let currentSlide = 0;
 
     // Create slides
@@ -116,8 +115,4 @@ function createSlideshow() {
     setInterval(nextSlide, 5000);
 }
 
-// Initialize gallery and slideshow when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    createSlideshow();
-    populateGallery();
-}); 
+// Initialize gallery 
