@@ -32,6 +32,34 @@ const galleryImages = [
     {
         src: 'img8.jpg',
         caption: 
+    },
+     {
+        src: 'img9.jpg',
+        caption: 
+    },
+     {
+        src: 'img10.jpg',
+        caption: 
+    },
+     {
+        src: 'img11.jpg',
+        caption: 
+    },
+     {
+        src: 'img12.jpg',
+        caption: 
+    },
+     {
+        src: 'img13.jpg',
+        caption: 
+    },
+     {
+        src: 'img14.jpg',
+        caption: 
+    },
+     {
+        src: 'img15.jpg',
+        caption: 
     }
 ];
 
