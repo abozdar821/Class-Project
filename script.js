@@ -1,13 +1,13 @@
+
 // Gallery images data
 const galleryImages = [
     {
         src: 'img1.jpg',
-        caption: 'Job Ben Solomon (Ayyub ibn Sulaiman Diallo)' 'Omar ibn Said\'s autobiography manuscript in Arabic'
+        caption: 'Omar ibn Said\'s autobiography manuscript in Arabic'
     },
     {
         src: 'img2.jpg',
-        caption: 'Ibrahima abd al Rahman'
-
+        caption: 'Portrait of Omar ibn Said'
     },
     {
         src: 'img3.jpg',
@@ -15,19 +15,19 @@ const galleryImages = [
     },
     {
         src: 'img4.jpg',
-        caption: 'Omar ibn Said' 
-    },
-    {
-        src: 'img5.jpg',
-        caption: 
-    },
-    {
-        src: 'img6.jpg',
         caption: 'Portrait of Yarrow Mamout by Charles Willson Peale'
     },
     {
+        src: 'img5.jpg',
+        caption: 'Job Ben Solomon (Ayyub ibn Sulaiman)'
+    },
+    {
+        src: 'img6.jpg',
+        caption: 'Historical document from African Muslim archives'
+    },
+    {
         src: 'img7.jpg',
-        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+        caption: 'Early American Islamic manuscript'
     }
 ];
 
