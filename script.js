@@ -6,9 +6,7 @@ const galleryImages = [
     },
     {
         src: 'img2.jpg',
-        caption: 'Ibrahima abd al Rahman, The Colonizationist and Journal of Freedom (1834).
-(Courtesy of The New York Public Library, Schomburg Center for Research in
-Black Culture, Manuscripts, Archives and Rare Books Division)'
+        caption: 'Ibrahima abd al Rahman'
 
     },
     {
