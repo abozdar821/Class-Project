@@ -54,14 +54,14 @@ nav {
     position: relative;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
     z-index: 1;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .hero h1 {
@@ -110,7 +110,7 @@ nav {
 }
 
 .gallery-section {
-    padding: 4rem 2rem;
+    padding: 6rem 6rem;
     background-color: white;
 }
 
