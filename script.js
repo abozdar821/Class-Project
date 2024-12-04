@@ -65,7 +65,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Slideshow functionality
 function createSlideshow() {
     const slideshowContainer = document.querySelector('.slideshow-container');
-    const images = ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg', 'img6.jpg', 'img7.jpg'];
+    const images = ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg', 'img6.jpg', 'img7.jpg','img8.jpg'];
     let currentSlide = 0;
 
     // Create slides
