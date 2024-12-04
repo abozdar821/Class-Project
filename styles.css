@@ -126,7 +126,7 @@ nav {
 .gallery-item {
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: auto;
     aspect-ratio: 1;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
