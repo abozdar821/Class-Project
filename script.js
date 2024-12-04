@@ -31,11 +31,7 @@ const galleryImages = [
     },
     {
         src: 'img8.jpg',
-        caption: 'Zuma (from al-jum’ah, “Friday”), a Nupe from Northern Benin, was deported on
-the Clotilda, the last slave ship to the United States, which arrived in Mobile,
-Alabama, on July 8, 1860. (Courtesy of The New York Public Library,
-Schomburg Center for Research in Black Culture, Jean Blackwell Hutson
-Research and Reference Division)'
+        caption: 
     }
 ];
 
