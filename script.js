@@ -3,27 +3,27 @@
 const galleryImages = [
     {
         src: 'img1.jpg',
-        caption: 'Omar ibn Said\'s autobiography manuscript in Arabic'
-    },
-    {
-        src: 'img2.jpg',
-        caption: 'Portrait of Omar ibn Said'
-    },
-    {
-        src: 'img3.jpg',
-        caption: 'Portrait of Nicholas Said'
-    },
-    {
-        src: 'img4.jpg',
-        caption: 'Portrait of Yarrow Mamout by Charles Willson Peale'
-    },
-    {
-        src: 'img5.jpg',
         caption: 'Job Ben Solomon (Ayyub ibn Sulaiman)'
     },
     {
+        src: 'img2.jpg',
+        caption: 'Ibrahima abd al Rahman'
+    },
+    {
+        src: 'img3.jpg',
+        caption: 'Nicholas Said'
+    },
+    {
+        src: 'img4.jpg',
+        caption: 'Omar ibn Said'
+    },
+    {
+        src: 'img5.jpg',
+        caption: 'Portrait of Enslaved Muslim Woman'
+    },
+    {
         src: 'img6.jpg',
-        caption: 'Historical document from African Muslim archives'
+        caption: 'Portrait of Yarrow Mamout by Charles Willson Peale'
     },
     {
         src: 'img7.jpg',
