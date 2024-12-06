@@ -43,11 +43,7 @@ Research and Reference Division)
 See,” a Liberated African residing in Panama. It is made of surahs and awrad
 (litanies) linked to the Qadiriyya Sufi order. (Courtesy of the Omar ibn Said
 Foundation)'
-    },
-    {
-        src: 'img10.jpg',
-        caption: 'Omar ibn Said 1770-1863 Historical Marker'
-    },
+    },  
     {
         src: 'img11.jpg',
         caption: '"Ben-Ali's Diary" written in Arabic by Bilali Mohamed on Sapelo Island, Georgia, in the 1850s.'
