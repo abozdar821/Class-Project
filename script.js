@@ -30,18 +30,12 @@ const galleryImages = [
     },
     {
         src: 'img8.jpg',
-        caption: 'Zuma (from al-jum’ah, “Friday”), a Nupe from Northern Benin, was deported on
-the Clotilda, the last slave ship to the United States, which arrived in Mobile,
-Alabama, on July 8, 1860. (Courtesy of The New York Public Library,
-Schomburg Center for Research in Black Culture, Jean Blackwell Hutson
-Research and Reference Division)'
+        caption: 'Zuma (from al-jum’ah, “Friday”)'
     },
     {
         src: 'img9.jpg',
         caption: 'First page of a six-page manuscript written in Arabic in the 1850s by “Sana
-See,” a Liberated African residing in Panama. It is made of surahs and awrad
-(litanies) linked to the Qadiriyya Sufi order. (Courtesy of the Omar ibn Said
-Foundation)'
+See,” a Liberated African residing in Panama.'
     },  
     {
         src: 'img11.jpg',
