@@ -54,7 +54,7 @@ Foundation)'
     },
     {
         src: 'img13.jpg',
-        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+        caption: 'Surah al Mulk (Chapter from The Quran) from the Autobiograpgy of Omar ibn said written in Arabic'
     },
     {
         src: 'img14.jpg',
