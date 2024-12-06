@@ -58,7 +58,7 @@ Foundation)'
     },
     {
         src: 'img14.jpg',
-        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+        caption: 'Map of West Africa from 18th century'
     },
     {
         src: 'img15.jpg',
