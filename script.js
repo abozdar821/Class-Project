@@ -42,7 +42,7 @@ const galleryImages = [
     },
     {
         src: 'img11.jpg',
-        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+        caption: '"Ben-Ali's Diary" written in Arabic by Bilali Mohamed on Sapelo Island, Georgia, in the 1850s.'
     },
     {
         src: 'img12.jpg',
