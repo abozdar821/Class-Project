@@ -27,39 +27,8 @@ const galleryImages = [
     {
         src: 'img7.jpg',
         caption: 'Omar ibn Said 1770-1863 Historical Marker'
-    },
-    {
-        src: 'img8.jpg',
-        caption: 'Unknown Portrait 1'
-    },
-    {
-        src: 'img9.jpg',
-        caption: 'Unknown Portrait 2'
-    },
-    {
-        src: 'img10.jpg',
-        caption: 'Unknown Portrait 3'
-    },
-    {
-        src: 'img11.jpg',
-        caption: 'Unknown Portrait 4'
-    },
-    {
-        src: 'img12.jpg',
-        caption: 'Unknown Portrait 5'
-    },
-    {
-        src: 'img13.jpg',
-        caption: 'Unknown Portrait 6'
-    },
-    {
-        src: 'img14.jpg',
-        caption: 'Unknown Portrait 7'
-    },
-    {
-        src: 'img15.jpg',
-        caption: 'Unknown Portrait 8'
     }
+    
 ];
 
 // Function to populate gallery
