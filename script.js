@@ -34,8 +34,7 @@ const galleryImages = [
 the Clotilda, the last slave ship to the United States, which arrived in Mobile,
 Alabama, on July 8, 1860. (Courtesy of The New York Public Library,
 Schomburg Center for Research in Black Culture, Jean Blackwell Hutson
-Research and Reference Division)
-'
+Research and Reference Division)'
     },
     {
         src: 'img9.jpg',
