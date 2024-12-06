@@ -27,8 +27,39 @@ const galleryImages = [
     {
         src: 'img7.jpg',
         caption: 'Omar ibn Said 1770-1863 Historical Marker'
+    },
+    {
+        src: 'img8.jpg',
+        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+    },
+    {
+        src: 'img9.jpg',
+        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+    },
+    {
+        src: 'img10.jpg',
+        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+    },
+    {
+        src: 'img11.jpg',
+        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+    },
+    {
+        src: 'img12.jpg',
+        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+    },
+    {
+        src: 'img13.jpg',
+        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+    },
+    {
+        src: 'img14.jpg',
+        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+    },
+    {
+        src: 'img15.jpg',
+        caption: 'Omar ibn Said 1770-1863 Historical Marker'
     }
-    
 ];
 
 // Function to populate gallery
@@ -61,10 +92,31 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Slideshow functionality
 function createSlideshow() {
     const slideshowContainer = document.querySelector('.slideshow-container');
-    const images = galleryImages.map(image => image.src); // Use all `src` values from galleryImages
+    const images = ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg', 'img6.jpg', 'img7.jpg'];
     let currentSlide = 0;
 
     // Create slides
     images.forEach((img, index) => {
         const slide = document.createElement('div');
-        slide.className = `slide ${index
+        slide.className = `slide ${index === 0 ? 'active' : ''}`;
+        slide.style.backgroundImage = `url(${img})`;
+        slideshowContainer.appendChild(slide);
+    });
+
+    // Function to change slides
+    function nextSlide() {
+        const slides = document.querySelectorAll('.slide');
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+    }
+
+    // Change slide every 5 seconds
+    setInterval(nextSlide, 5000);
+}
+
+// Initialize gallery and slideshow when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    createSlideshow();
+    populateGallery();
+}); 
