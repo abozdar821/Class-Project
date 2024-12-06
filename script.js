@@ -50,7 +50,7 @@ Foundation)'
     },
     {
         src: 'img12.jpg',
-        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+        caption: 'A collection of the names of the enslaved people in Americas'
     },
     {
         src: 'img13.jpg',
