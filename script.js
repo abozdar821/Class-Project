@@ -34,7 +34,10 @@ const galleryImages = [
     },
     {
         src: 'img9.jpg',
-        caption: 'Omar ibn Said 1770-1863 Historical Marker'
+        caption: 'First page of a six-page manuscript written in Arabic in the 1850s by “Sana
+See,” a Liberated African residing in Panama. It is made of surahs and awrad
+(litanies) linked to the Qadiriyya Sufi order. (Courtesy of the Omar ibn Said
+Foundation)'
     },
     {
         src: 'img10.jpg',
