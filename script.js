@@ -30,15 +30,15 @@ const galleryImages = [
     },
     {
         src: 'img8.jpg',
-        caption: 'Zuma (from al-jum’ah, “Friday”)'
+        caption: 'Zuma (from al-jum\'ah , Friday), a Nupe from Northern Benin, was deported on the Clotilda, the last slave ship to the U.S., arriving in Mobile, Alabama, on July 8, 1860.'
     },
     {
         src: 'img9.jpg',
         caption: 'First page of a six-page manuscript written in Arabic in the 1850s by “Sana See,” a Liberated African residing in Panama.'
-    },  
+    },
     {
         src: 'img11.jpg',
-        caption: '"Ben-Ali's_Diary" written in Arabic by Bilali Mohamed on Sapelo Island, Georgia, in the 1850s.'
+        caption: '"Ben-Ali\'s Diary" written in Arabic by Bilali Mohamed on Sapelo Island, Georgia, in the 1850s.'
     },
     {
         src: 'img12.jpg',
@@ -46,13 +46,14 @@ const galleryImages = [
     },
     {
         src: 'img13.jpg',
-        caption: 'Surah al Mulk (Chapter from The Quran) from the Autobiograpgy of Omar ibn said written in Arabic'
+        caption: 'Surah al-Mulk (Chapter from The Quran) from the Autobiography of Omar ibn Said written in Arabic'
     },
     {
         src: 'img14.jpg',
-        caption: 'Map of West Africa from 18th century'
+        caption: 'Map of West Africa from the 18th century'
     }
 ];
+
 
 // Function to populate gallery
 function populateGallery() {
