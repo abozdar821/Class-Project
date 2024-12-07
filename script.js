@@ -34,8 +34,7 @@ const galleryImages = [
     },
     {
         src: 'img9.jpg',
-        caption: 'First page of a six-page manuscript written in Arabic in the 1850s by “Sana
-See,” a Liberated African residing in Panama.'
+        caption: 'First page of a six-page manuscript written in Arabic in the 1850s by “Sana See,” a Liberated African residing in Panama.'
     },  
     {
         src: 'img11.jpg',
