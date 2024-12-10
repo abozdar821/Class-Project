@@ -18,6 +18,22 @@ body {
     background-color: var(--background-color);
 }
 
+.search-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
 nav {
     background-color: var(--primary-color);
     padding: 1rem;
@@ -155,7 +171,6 @@ nav {
     transform: translateY(0);
 }
 
-
 footer {
     background-color: var(--primary-color);
     color: white;
@@ -253,4 +268,49 @@ footer {
 .slide.active {
     opacity: 1;
 }
- 
+
+#results {
+    max-height: 500px; /* Set a maximum height for the container */
+    overflow-y: auto;  /* Enable vertical scrolling if content exceeds height */
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--secondary-color); /* Use theme colors */
+    background-color: white; /* White background for the results container */
+    border-radius: 5px; /* Rounded corners for the container */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+}
+
+.search-result {
+    background-color: white; /* White background for each result */
+    padding: 15px; /* Add padding for spacing */
+    margin-bottom: 10px; /* Space between individual results */
+    border: 1px solid var(--secondary-color); /* Optional border for clarity */
+    border-radius: 5px; /* Rounded corners for each result */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.search-result h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: var(--primary-color); /* Consistent text color */
+}
+
+.search-result p {
+    margin: 5px 0;
+    color: var(--text-color); /* Match text color to the theme */
+}
+
+.search-result button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    background-color: var(--primary-color); /* Themed button background */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search-result button:hover {
+    background-color: var(--secondary-color); /* Change color on hover */
+}
