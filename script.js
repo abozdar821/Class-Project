@@ -30,7 +30,7 @@ const galleryImages = [
     },
     {
         src: 'img8.jpg',
-        caption: 'Zuma (from al-jum\'ah , Friday), a Nupe from Northern Benin, was deported on the Clotilda, the last slave ship to the U.S., arriving in Mobile, Alabama, on July 8, 1860.'
+        caption: 'Zuma (from al-jum\'ah, Friday), a Nupe from Northern Benin, was deported on the Clotilda, the last slave ship to the U.S., arriving in Mobile, Alabama, on July 8, 1860.'
     },
     {
         src: 'img9.jpg',
@@ -54,7 +54,6 @@ const galleryImages = [
     }
 ];
 
-
 // Function to populate gallery
 function populateGallery() {
     const galleryGrid = document.getElementById('galleryGrid');
@@ -70,6 +69,49 @@ function populateGallery() {
         
         galleryGrid.appendChild(galleryItem);
     });
+}
+
+// Function to handle search
+function searchBooks() {
+    const query = document.getElementById('searchInput').value.trim();
+    const resultsDiv = document.getElementById('results');
+  
+    if (!query) {
+        alert('Please enter a search term!');
+        return;
+    }
+  
+    resultsDiv.innerHTML = '<p>Loading...</p>'; // Show loading while fetching
+  
+    fetch(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.items && data.items.length > 0) {
+                resultsDiv.innerHTML = data.items.map(item => `
+                    <div class="search-result">
+                        <h3>${item.volumeInfo.title}</h3>
+                        <p><strong>Authors:</strong> ${item.volumeInfo.authors ? item.volumeInfo.authors.join(', ') : 'Unknown Author'}</p>
+                        <button onclick="window.open('${item.volumeInfo.infoLink}', '_blank')">Open in New Tab</button>
+                    </div>
+                `).join('');
+                // Add remove all button
+                resultsDiv.innerHTML += `
+                    <button onclick="removeAllSearchResults()">Remove All Results ❌</button>
+                `;
+            } else {
+                resultsDiv.innerHTML = '<p>No results found for this search.</p>';
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+            resultsDiv.innerHTML = '<p>An error occurred. Please try again later.</p>';
+        });
+}
+
+// Function to remove all search results
+function removeAllSearchResults() {
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = ''; // Clear all results
 }
 
 // Smooth scrolling for navigation links
@@ -112,4 +154,4 @@ function createSlideshow() {
 document.addEventListener('DOMContentLoaded', () => {
     createSlideshow();
     populateGallery();
-}); 
+});
