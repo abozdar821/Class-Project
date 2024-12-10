@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #8B4513;
-    --secondary-color: #DEB887;
+    --primary-color: #e98f09;
+    --secondary-color: #f7db3e;
     --text-color: #333;
-    --background-color: #FFF8DC;
+    --background-color: #f2f3c4;
 }
 
 * {
@@ -153,6 +153,12 @@ nav {
     height: auto;
     object-fit: cover;
     display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05); /* Slight zoom effect when hovering */
 }
 
 .gallery-item .caption {
@@ -169,6 +175,31 @@ nav {
 
 .gallery-item:hover .caption {
     transform: translateY(0);
+}
+
+/* Lightbox Styles */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+.lightbox:target {
+    display: flex;
 }
 
 footer {
