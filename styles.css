@@ -54,7 +54,15 @@ nav {
     display: flex;
     list-style: none;
 }
-
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+nav a:hover {
+    color: #0056b3;
+}
+  
 .nav-links li a {
     color: white;
     text-decoration: none;
@@ -65,7 +73,17 @@ nav {
 .nav-links li a:hover {
     color: var(--secondary-color);
 }
-
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+  
 .hero {
     position: relative;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
