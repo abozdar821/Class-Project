@@ -102,6 +102,84 @@ nav a:hover {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem; /* Aligns the hamburger to the right side */
+    top: 50%; /* Vertically centers it */
+    transform: translateY(-50%); /* Adjusts for perfect vertical alignment */
+    z-index: 2000; /* Ensures it's above other content */
+    padding: 10px; /* Adds padding around the hamburger icon */
+}
+
+.bar {
+    background-color: white;
+    height: 3px;
+    width: 30px; /* Adjust width for a more mobile-friendly size */
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    /* Adjust the size of the hamburger bars on smaller screens */
+    .bar {
+        width: 25px; /* Smaller width on smaller screens */
+    }
+
+    /* Ensuring the navbar does not get blocked by the hamburger menu */
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0; /* Align it to the right side */
+        width: 100%;
+        background-color: var(--primary-color);
+        flex-direction: column;
+        text-align: center;
+        padding-top: 60px; /* Adds padding so the content isn't hidden by the navbar */
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+    .hamburger.open .bar:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+    }
+
+    .hamburger.open .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.open .bar:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        margin-top: 1rem;
+    }
+}
 
 .sources-section {
     padding: 4rem 2rem;
