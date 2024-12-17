@@ -42,7 +42,7 @@ button {
 
 @media (max-width: 600px) {
     .search-container input[type="text"] {
-        width: 90%; /* Take up more space on small screens */
+        width: 50%; /* Take up more space on small screens */
         font-size: 14px;
         padding: 8px;
     }
@@ -55,7 +55,7 @@ button {
 
 @media (min-width: 601px) and (max-width: 1024px) {
     .search-container input[type="text"] {
-        width: 70%; /* Adjust width on medium screens */
+        width: 50%; /* Adjust width on medium screens */
         font-size: 15px;
         padding: 9px;
     }
