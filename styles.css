@@ -27,12 +27,11 @@ input[type="text"] {
     width: 50%;
     padding: 10px;
     font-size: 16px;
-}
-
-button {
+    button {
     padding: 10px;
     font-size: 12px;
-}
+}}
+
 
 nav {
     background-color: var(--primary-color);
